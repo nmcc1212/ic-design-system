@@ -116,14 +116,6 @@ const ComponentGallery: React.FC = () => {
               >
                 <h4>{title}</h4>
               </ic-typography>
-              {status === "CANARY" && (
-                <ic-status-tag
-                  slot="adornment"
-                  label={status}
-                  size="small"
-                  status="warning"
-                />
-              )}
             </ic-card>
           </GatsbyLink>
         </li>
